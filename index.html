@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A little garden made with love for my cutie pie." />
+    <title>For My Cutie Pie — With All My Love</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="petals" aria-hidden="true">
+      <i>✿</i><i>✦</i><i>❀</i><i>✿</i><i>✦</i><i>❀</i><i>✿</i>
+    </div>
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <nav><span class="brand">H ♡</span><a href="#letter">A note for you</a></nav>
+        <div class="hero-copy">
+          <p class="eyebrow">A small garden, just for you</p>
+          <h1 id="page-title">My Cutie Pie,<br /><em>you are my favourite feeling.</em></h1>
+          <p class="intro">I made this little place to hold a few of the things I never want you to forget.</p>
+          <a class="button" href="#garden">Step into your garden <span>↓</span></a>
+        </div>
+        <p class="scroll-note">made with all my love</p>
+      </section>
+
+      <section class="garden" id="garden" aria-labelledby="garden-title">
+        <div class="section-heading">
+          <p class="eyebrow">Pick a bloom</p>
+          <h2 id="garden-title">Every flower is a tiny reminder.</h2>
+          <p>Tap one when you need to hear something sweet.</p>
+        </div>
+        <div class="flower-grid">
+          <button class="flower-card rose" data-message="Lalu, your childish little moments make my world lighter in ways you may never realise."><span class="flower">✿</span><strong>For your childishness</strong><small>tap me</small></button>
+          <button class="flower-card daisy" data-message="I love how blunt and honest you are — with you, I always know what is real."><span class="flower">✼</span><strong>For your honesty</strong><small>tap me</small></button>
+          <button class="flower-card tulip" data-message="The way you care is one of the quietest, loveliest things about you."><span class="flower">❀</span><strong>For your caring heart</strong><small>tap me</small></button>
+          <button class="flower-card lilac" data-message="My Lalu, you are loved more deeply than a page, a flower, or a whole garden can say."><span class="flower">✾</span><strong>For always</strong><small>tap me</small></button>
+        </div>
+        <div class="message" aria-live="polite"><span>✦</span><p id="flower-message">Choose a flower, my cutie pie.</p></div>
+      </section>
+
+      <section class="reasons" aria-labelledby="reasons-title">
+        <div class="photo"></div>
+        <div class="reasons-copy">
+          <p class="eyebrow">A few things I adore</p>
+          <h2 id="reasons-title">You make the world feel warmer.</h2>
+          <ol>
+            <li><span>01</span>Your childish little moments make everything lighter.</li>
+            <li><span>02</span>Your blunt honesty is one of the things I trust most.</li>
+            <li><span>03</span>Your caring heart makes being loved by you a gentle gift.</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="universe" aria-labelledby="universe-title">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="universe-copy">
+          <p class="eyebrow">Our little universe</p>
+          <h2 id="universe-title">Out of all the beautiful things, <em>you happened to me.</em></h2>
+          <p>Some people feel like a chapter. You feel like the whole story slowly becoming brighter.</p>
+          <button class="wish-button" id="wish-button">Make a wish for us <span>✦</span></button>
+          <p class="wish" id="wish" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <section class="letter-section" id="letter" aria-labelledby="letter-title">
+        <p class="eyebrow">For the moments you need it</p>
+        <h2 id="letter-title">A letter for my cutie pie</h2>
+        <button class="envelope" id="open-letter" aria-expanded="false" aria-controls="letter-card">
+          <span class="seal">H</span>
+          <span class="envelope-label">Open when you want to feel my love</span>
+        </button>
+        <article class="letter" id="letter-card" hidden>
+          <p>My dearest Lalu,</p>
+          <p>I still think about the day we picked a subject together. The moment I saw your name, something in me just knew — you were the one for me. It was such a simple moment, but it felt like the beginning of something my heart had already been waiting for.</p>
+          <p>And then there was COAL. Studying together through finals, talking our way through the stress, and somehow finding reasons to laugh in between it all — that is one of my favourite memories with you. That day, in all those little conversations and laughs, I realised we were going to end up together.</p>
+          <p>I adore your childish little moments because they make everything lighter. I adore your blunt honesty because with you, I always know what is real. And I adore your caring heart — the quiet way you care about people and the little things that most people miss.</p>
+          <p class="stanza">When I’m not talking to you,<br />I talk to your thoughts and think of you.<br /><span>Jo tu na tha, kartay thy hum baatain tairee yadon sai.</span></p>
+          <p>Lalu, you have become such a beautiful part of my days and my thoughts. Thank you for being exactly who you are. I love you, in the loud happy moments, in the quiet ones, and in every thought that finds its way back to you.</p>
+          <p class="signature">your johny &lt;3<br /><span>♡</span></p>
+        </article>
+      </section>
+
+      <section class="finale" aria-label="Closing message">
+        <p class="eyebrow">One more thing</p>
+        <h2>I love you,<br /><em>more than words can carry.</em></h2>
+        <button id="heart-button" class="heart-button">Press for a little extra love <span>♡</span></button>
+        <p class="secret" id="secret" aria-live="polite"></p>
+      </section>
+    </main>
+    <footer>Made just for my cutie pie <span>✦</span></footer>
+    <div id="sparkles" class="sparkles" aria-hidden="true"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
